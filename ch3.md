@@ -24,7 +24,7 @@
   - CU
   - registe조
   - cache memory
-  - interrupt line
+  - interrupt line - CPU가 하나의 명령을 실행할 때마다 인터럽트 라인이 인터럽트를 감지했는지 확인한다
   - modebit - CPU가 보안과 관련된 명령을 수행하기 전에 modebit값을 검사해서 0인 경우에만(커널모드) 일 때만 실행한다. 시스템 보안과 관련된 명령은 커널모드에서 OS에 의해서만 수행될 수 있따.
 - Memory
   - 프로세스마다 달려 있는 PCB(실행중인 프로세스의 메모리주소, 레지스터값, 하드웨어상태… 저장됨)
